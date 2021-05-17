@@ -1,3 +1,5 @@
+//Muhammad Rizky Cavendio - 20051397011
+
 #include <iostream>
 #include <conio.h>
 #include <string.h>
@@ -8,19 +10,19 @@ int main()
 {
  
    char string[25];   
-   int pjgstring;     
-   cout << "=====================================================" <<endl <<endl;
-   cout << "       PROGRAM MEMBALIK KALIMAT DENGAN REKURSI       " <<endl <<endl;
-   cout << "=====================================================" <<endl <<endl;
+   int totstring;     
+   cout << "=====================================================\n\n"; 
+   cout << "       PROGRAM MEMBALIK KALIMAT DENGAN REKURSI       \n\n";
+   cout << "=====================================================\n\n";
    cout << "Masukkan Kalimat :"; 
    cin  >> string;
-   cout << "\n Kalimat Terbalik : ";
+   cout << "Kalimat Terbalik : \n";
 
-   pjgstring = strlen(string) - 1;
-   while (pjgstring >= 0)         
+   totstring = strlen(string) - 1;
+   while (totstring >= 0)         
    {
-    cout << string[pjgstring];
-     pjgstring = pjgstring - 1;  
+    cout << string[totstring];
+     totstring = totstring - 1;  
    }
    getch();
 }
