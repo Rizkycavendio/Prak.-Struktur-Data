@@ -6,9 +6,7 @@
 using namespace std;
  
 int main()
- 
 {
- 
    char string[25];   
    int totstring;     
    cout << "=====================================================\n\n"; 
